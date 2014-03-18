@@ -4,6 +4,17 @@ Java client [bomberman](https://github.com/aybabtme/bomberman) client.
 
 # Quickstart
 
+It’s dangerous to go alone! Take this [jar](https://github.com/aybabtme/bombjava/raw/master/dist/bombjava.jar).
+
+Then
+```java
+// import the files
+import im.antoine.bombjava.Client;
+import im.antoine.bombjava.GameState;
+import im.antoine.bombjava.PlayerState;
+```
+
+Now use the client!
 ```java
 // Prepare the client
 Client c = new Client("127.0.0.1", 40000);
