@@ -51,6 +51,8 @@ public final class Board {
   public static enum GameObject {
     // Land
     Wall("Wall"), Ground("Ground"), Rock("Rock"),
+    // Danger!
+    Flame("Flame"),
     // Powerups
     BombPowerUp("BombPU"), RadiusPowerUp("RadiusPU"),
     // Client
